@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "markovchainsawmassacre",
+  "version": "0.0.0",
+  "description": "a massacre of markov chains",
+  "main": "index.js",
+  "bin": {
+    "markovchainsawmassacre": "bin/chain.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yetzt/markovchainsawmassacre.git"
+  },
+  "author": "yetzt <node@yetzt.me> (https://yetzt.me/)",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/yetzt/markovchainsawmassacre/issues"
+  },
+  "homepage": "https://github.com/yetzt/markovchainsawmassacre",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "ent": "^2.2.0",
+    "natural": "^0.2.1",
+    "sv": "^0.3.7",
+    "twitter": "^1.2.5"
+  }
+}
